@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="App7.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    <!--TODO: Content should be placed within the following grid-->
+    <Grid x:Name="ContentRoot" Margin="10,0,0,0" Grid.RowSpan="2" Height="630" VerticalAlignment="Bottom" Background="#FF0F91BB" RenderTransformOrigin="0.536,0.539">
+        <Button x:Name="button_Panic" Content="Panic" HorizontalAlignment="Left" Margin="33,30,0,0" VerticalAlignment="Top" Height="189" Width="238" FontSize="73.333" FontWeight="Normal" BorderThickness="3" Click="button_Click" Style="{StaticResource ButtonRoundStyle}"/>
+        <Button x:Name="button_Fire" Content="Fire" HorizontalAlignment="Left" Margin="188,253,0,0" VerticalAlignment="Top" Height="145" Width="194" FontSize="53.333" FontWeight="Normal" BorderThickness="3" Click="button_Click" Style="{StaticResource ButtonRoundStyle}"/>
+        <Button x:Name="button_Medical" Content="Medical" HorizontalAlignment="Left" Margin="24,353,0,0" VerticalAlignment="Top" Height="110" Width="159" FontSize="37.333" FontWeight="Normal" BorderThickness="3" Click="button_Click" Style="{StaticResource ButtonRoundStyle}"/>
+        <Button x:Name="button_Medical_Copy" Content="Police" HorizontalAlignment="Left" Margin="179,473,0,0" VerticalAlignment="Top" Height="94" Width="139" FontSize="40" FontWeight="Normal" BorderThickness="3" Click="button_Click" Style="{StaticResource ButtonRoundStyle}"/>
+    </Grid>
+
+</Page>
